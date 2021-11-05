@@ -1,0 +1,21 @@
+.card {
+    outline: red 5px dotted;
+    width: 300px;
+    border: 10px black solid;
+}
+
+.card .card__title {
+    font-weight: bolder;
+    color: green;
+    font-size: 25px;
+    border: 1px solid green
+}
+
+.card .card__description {
+    text-align: center;
+    height: 150px;
+    overflow: scroll;
+    width: 280px;
+    color: green;
+    border: 5px dashed red
+}
