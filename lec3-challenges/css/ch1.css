@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.gray {
+    background-color: #ccc;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.page {
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.page .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page .header .links {
+    list-style: none;
+    display: flex;
+    width: 92%;
+    justify-content: end;
+}
+
+.page .header .links li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.page .main-area {
+    display: flex;
+    height: 75%;
+}
+
+.page .main-area .content {
+    width: 59%;
+    margin-right: 1%;
+}
+
+.page .main-area .sidebar {
+    width: 40%;
+}
+
+.page .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
