@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-table {
+    text-align: center;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.header {
+    border-radius: 15px;
+    background-color: #15bdbd;
+    color: white;
+}
+
+table {
+    background-color: white;
+    border: none;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 15px 40px;
+}
+
+.dark-row {
+    background-color: #fafafa;
+}

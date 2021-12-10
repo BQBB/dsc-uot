@@ -1,21 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .card {
-    outline: red 5px dotted;
-    width: 300px;
-    border: 10px black solid;
+  outline: #cf2d2d 5px dotted;
+  width: 300px;
+  border: 10px black solid;
 }
 
 .card .card__title {
-    font-weight: bolder;
-    color: green;
-    font-size: 25px;
-    border: 1px solid green
+  font-weight: bolder;
+  color: rgb(43, 163, 43);
+  font-size: 25px;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 20px;
+}
+
+.card .card-img {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.card .card-img img {
+    object-fit: fill;
 }
 
 .card .card__description {
-    text-align: center;
-    height: 150px;
-    overflow: scroll;
-    width: 280px;
-    color: green;
-    border: 5px dashed red
+  text-align: center;
+  height: 150px;
+  overflow: scroll;
+  color: green;
+  border: 5px dashed #cf2d2d;
+  padding: 5px 10px;
+  margin: 10px;
 }
