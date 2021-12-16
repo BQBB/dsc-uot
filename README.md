@@ -14,7 +14,7 @@ All Challenges Of `Full Stack Web Development` Course
   
 ## Lecture three Challenges
 
-
 - [Challenge 1 - Page Layout](https://bqbb.github.io/dsc-uot/lec3-challenges/ch1.html)
 - [Challenge 2 - Loading Page](https://bqbb.github.io/dsc-uot/lec3-challenges/ch2.html)
 - [Challenge 3 - Huddle landing page](https://bqbb.github.io/dsc-uot/lec3-challenges/ch3.html)
+- [Homework - flexbox container](https://bqbb.github.io/dsc-uot/blob/master/lec3-challenges/homework/index.html)
