@@ -1,0 +1,121 @@
+/* Global styles */
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* Global styles */
+
+/* Header styles */
+
+.header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.header-title {
+    margin-bottom: 20px;
+}
+
+.header-title .light h1 {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.header-title .bold h1 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.header-description {
+    padding: 0 320px;
+}
+
+.header-description p {
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+/* Header styles */
+
+/* Cards styles */
+.cards-flex-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* background-color: #ccc; */
+}
+
+.cards-flex-container .card {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 8px;
+    border-top: 4px solid  hsl(0, 78%, 62%);
+    box-shadow: 0 4px 20px 0 rgba(0 , 0, 0, 0.1);
+}
+
+.cards-flex-container .second-column .card:first-child {
+    margin-bottom: 30px;
+}
+
+
+.card .title {
+    margin-bottom: 10px;
+}
+
+.card .title h3 {
+    color: hsl(234, 12%, 34%);
+    font-size: 18px;
+}
+
+.card .description {
+    margin-bottom: 40px;
+}
+
+.card .description p {
+    color: hsl(229, 6%, 66%);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card .img {
+    display: flex;
+    /* background: #ccc; */
+    justify-content: flex-end;
+}
+
+.supervisor .description {
+    padding-right: 40px;
+}
+
+.cards-flex-container .karma {
+    border-top: 4px solid  hsl(34, 97%, 64%);
+}
+
+.cards-flex-container .supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.cards-flex-container .calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+/* Cards styles */
